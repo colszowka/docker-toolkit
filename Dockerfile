@@ -28,4 +28,5 @@ RUN apk add --update \
     && \
     rm -rf /var/cache/apk/*
 
+COPY .bashrc /root/
 ENTRYPOINT ["bash"]
