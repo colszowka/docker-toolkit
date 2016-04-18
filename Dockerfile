@@ -24,6 +24,7 @@ RUN apk add --update \
       tig \
       # Scripting languages
       ruby \
+      ruby-irb \
       nodejs \
     && \
     rm -rf /var/cache/apk/*
