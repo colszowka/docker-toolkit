@@ -6,6 +6,7 @@ RUN apk add --update \
       readline \
       grep \
       gawk \
+      tree \
       # Interacting with the networks
       curl \
       wget \
